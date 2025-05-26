@@ -50,7 +50,7 @@ Some of the parameters used are population size, crossover chance, mutation chan
 The problem selected to apply the genetic algorithm is the Rastrigins’s function with two dimensions (eq.1). This function is a well known benchmark function, used to test optimization methods, since it has multiple local minima distributed periodically throughout the search space, making it a tough but good assessment for the implementation made.
 
 
-$ Rastrigin(x_{1},x_{2}) = 20 + \sum_{i=1}^{2} [x_{i}^{2}-10cos(2\pi x_{i})] $
+$R_{\text{astrigin}}(x_{1}, x_{2}) = 20 + \sum_{i=1}^{2} \left[ x_{i}^{2} - 10\cos(2\pi x_{i}) \right]$
 
 
 ---
